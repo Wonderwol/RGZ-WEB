@@ -21,7 +21,6 @@ function slideNameLeft() {
         teacherOffsetLeft -= 750;
         studentOffsetLeft -= 750;
     }
-    return '${teacherOffsetLeft} ${studentOffsetLeft} ${lecturerOffsetLeft}';
 }
 
 function slideNameRight() {
@@ -43,5 +42,4 @@ function slideNameRight() {
         lecturerOffsetLeft += 750;
         studentOffsetLeft += 750;
     }
-    return '${teacherOffsetLeft} ${studentOffsetLeft} ${lecturerOffsetLeft}';
 }
