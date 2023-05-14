@@ -9,14 +9,14 @@ function slideNameLeft() {
     let lecturer = document.getElementById('lecturer');
     
     if (studentOffsetLeft == 750){
-        student.style.transform = 'translateX(-750px)';
-        lecturer.style.transform = 'translateX(-750px)';
+        student.style.transform = 'translateX(-375px)';
+        lecturer.style.transform = 'translateX(-375px)';
         studentOffsetLeft -= 750;
         lecturerOffsetLeft -= 750;
     }
     
     if (teacherOffsetLeft == 750) {
-        teacher.style.transform = 'translateX(-750px)';
+        teacher.style.transform = 'translateX(-375px)';
         student.style.transform = 'translateX(0px)';
         teacherOffsetLeft -= 750;
         studentOffsetLeft -= 750;
@@ -30,14 +30,14 @@ function slideNameRight() {
     let lecturer = document.getElementById('lecturer');
 
     if (studentOffsetLeft == 750){
-        student.style.transform = 'translateX(750px)';
-        teacher.style.transform = 'translateX(750px)';
+        student.style.transform = 'translateX(375px)';
+        teacher.style.transform = 'translateX(375px)';
         studentOffsetLeft += 750;
         teacherOffsetLeft += 750;
     }
 
     if (lecturerOffsetLeft == 750) {
-        lecturer.style.transform = 'translateX(750px)';
+        lecturer.style.transform = 'translateX(375px)';
         student.style.transform = 'translateX(0px)';
         lecturerOffsetLeft += 750;
         studentOffsetLeft += 750;

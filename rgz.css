@@ -68,7 +68,7 @@ section {
     width: 380px;
     left: 750px;
     z-index: 1;
-    transition: 3s;
+    transition: 1s;
 }
 
 .teacher {
@@ -76,9 +76,9 @@ section {
     top: 12px;
     font-size: 18px;
     width: 380px;
-    left: 0px;
+    left: 375px;
     z-index: 1;
-    transition: 3s;
+    transition: 1s;
 }
 
 .lecturer {
@@ -86,9 +86,9 @@ section {
     top: 12px;
     font-size: 18px;
     width: 380px;
-    left: 1500px;
+    left: 1150px;
     z-index: 1;
-    transition: 3s;
+    transition: 1s;
 }
 
 .left-border {
