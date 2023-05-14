@@ -17,7 +17,7 @@ function slideNameLeft() {
     
     if (teacherOffsetLeft == 750) {
         teacher.style.transform = 'translateX(-750px)';
-        student.style.transform = 'translateX(-750px)';
+        student.style.transform = 'translateX(0px)';
         teacherOffsetLeft -= 750;
         studentOffsetLeft -= 750;
     }
@@ -39,7 +39,7 @@ function slideNameRight() {
 
     if (lecturerOffsetLeft == 750) {
         lecturer.style.transform = 'translateX(750px)';
-        student.style.transform = 'translateX(750px)';
+        student.style.transform = 'translateX(0px)';
         lecturerOffsetLeft += 750;
         studentOffsetLeft += 750;
     }
