@@ -1,0 +1,109 @@
+a {
+    text-decoration: none;
+    color: gray;
+    opacity: 0.5;
+    transition: 0.5s;
+    font-size: 1.4rem;
+    position:relative;
+    font-family: inherit; /* скачать и поставить шрифт*/
+    left: 30px;
+    margin: 10px;
+}
+
+a:active {
+    color: #bf1f4f;
+
+}
+
+a:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+header {
+    background-color: #990032;
+    margin: -8px;
+    height: 50px;
+    text-align: center;
+    color:white;
+}
+
+section {
+    text-indent: 150px;
+    border-bottom: 2px #cbcfd6 solid;
+    margin: 0px;
+}
+
+
+.companyName {
+    color: #990032;
+    font-family: initial; /* скачать и поставить шрифт*/
+    font-size: 30px;
+}
+
+.realPosition {
+    color: #bf1f4f; 
+    opacity: 1;
+    border-bottom: 2px #990032 solid;
+    padding-bottom: 2px;
+}
+
+.arrow {
+    background-color: #990032;
+    border:none;
+    color:white;
+    font-size: 50px;
+    position: absolute;
+    top: -11px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.student {
+    position: absolute;
+    top: 12px;
+    font-size: 18px;
+    width: 380px;
+    left: 750px;
+    z-index: 1;
+    transition: 3s;
+}
+
+.teacher {
+    position: absolute;
+    top: 12px;
+    font-size: 18px;
+    width: 380px;
+    left: 0px;
+    z-index: 1;
+    transition: 3s;
+}
+
+.lecturer {
+    position: absolute;
+    top: 12px;
+    font-size: 18px;
+    width: 380px;
+    left: 1500px;
+    z-index: 1;
+    transition: 3s;
+}
+
+.left-border {
+    position: absolute;
+    width: 740px;
+    height: 50px;
+    z-index: 2;
+    background-color: #990032;
+}
+
+.right-border {
+    position: absolute;
+    width: 741px;
+    height: 50px;
+    right: 0px;
+    z-index: 2;
+    background-color: #990032;
+}
