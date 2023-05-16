@@ -43,3 +43,46 @@ function slideNameRight() {
         studentOffsetLeft += 750;
     }
 }
+
+
+function setFixedOnScroll() {
+    let block = document.getElementById('menu');
+    let tBlock = document.getElementById('menuSec');
+    let blockOffsetTop = block.offsetTop;
+  
+    function handleScroll() {
+      if (window.pageYOffset >= blockOffsetTop) {
+        block.style.position = 'fixed';
+        tBlock.style.position = 'fixed';
+        tBlock.style.top = '50px';
+        block.style.top = '0px';
+        block.style.width = '1903px';
+        block.style.left = '0px';
+        block.style.borderBottom = '2px #cbcfd6 solid';
+      } 
+      else {
+        block.style.position = 'relative';
+        tBlock.style.position = 'absolute';
+        block.style.width = '190x';
+        tBlock.style.top = '90px';
+        block.style.left = '-8px';
+      }
+    }
+  
+    window.addEventListener('scroll', handleScroll);
+  }
+  
+  setFixedOnScroll()
+
+  let flag = false; 
+  function showMenu() {
+    let tBlock = document.getElementById('menuSec');
+    if (flag == false) {
+        tBlock.style.display = 'inline-block';
+        flag = true;
+    }
+    else {
+        tBlock.style.display = 'none';
+        flag = false;
+    }
+  }
