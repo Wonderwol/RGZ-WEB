@@ -56,16 +56,16 @@ function setFixedOnScroll() {
         tBlock.style.position = 'fixed';
         tBlock.style.top = '50px';
         block.style.top = '0px';
-        block.style.width = '1903px';
+        block.style.width = '101%';
         block.style.left = '0px';
+        block.style.borderWidth = '3px';
         block.style.borderBottom = '2px #cbcfd6 solid';
       } 
       else {
         block.style.position = 'relative';
         tBlock.style.position = 'absolute';
-        block.style.width = '190x';
-        tBlock.style.top = '90px';
-        block.style.left = '-8px';
+        block.style.width = '100%';
+        tBlock.style.top = '100px';
       }
     }
   

@@ -1,3 +1,8 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
 section a {
     text-decoration: none;
     color: gray;
@@ -12,7 +17,6 @@ section a {
 
 section a:active {
     color: #bf1f4f;
-
 }
 
 section a:hover {
@@ -22,11 +26,11 @@ section a:hover {
 
 header {
     background-color: #990032;
-    margin: -8px;
     height: 50px;
     text-align: center;
     color:white;
     position: relative;
+    width:100%;
 }
 
 section {
@@ -36,8 +40,7 @@ section {
     z-index: 3;
     position: relative;
     background-color: white;
-    left: -8px;
-    width: 1903px;
+    width: 100%;
 }
 
 
@@ -58,9 +61,9 @@ section {
     background-color: #990032;
     border:none;
     color:white;
-    font-size: 50px;
-    position: absolute;
-    top: -11px;
+    position: relative;
+    top: -2px;
+    font-size: 40px;
 }
 
 .arrow:hover {
@@ -70,36 +73,40 @@ section {
 .student {
     position: absolute;
     top: 12px;
-    font-size: 18px;
-    width: 380px;
-    left: 750px;
+    font-size: 20px;
+    width: 19.79vw;
+    text-align: center;
+    left: 40%;
     z-index: 1;
-    transition: 1s;
+    transition: transform 1s;
+    transition: transform 1s;
 }
 
 .teacher {
     position: absolute;
     top: 12px;
-    font-size: 18px;
-    width: 380px;
-    left: 384px;
+    font-size: 1.1vw;
+    width: 19.79vw;
+    left: 18.3%;
     z-index: 1;
-    transition: 1s;
+    transition: transform 1s;
+    transition: transform 1s;
 }
 
 .lecturer {
     position: absolute;
     top: 12px;
-    font-size: 18px;
-    width: 380px;
-    left: 1137px;
+    font-size: 1.1vw;
+    width: 19.79vw;
+    left: 61.8%;
     z-index: 1;
-    transition: 1s;
+    transition: transform 1s;
+    transition: transform 1s;
 }
 
 .left-border {
     position: absolute;
-    width: 737px;
+    width: 38.39vw;
     height: 50px;
     z-index: 2;
     background-color: #990032;
@@ -107,7 +114,7 @@ section {
 
 .right-border {
     position: absolute;
-    width: 737px;
+    width: 38.39vw;
     height: 50px;
     right: 0px;
     z-index: 2;
@@ -115,19 +122,26 @@ section {
 }
 
 .content-1 {
-    color:black;
     font-size: 20px;
-    width:1400px;
-    position:absolute;
-    margin: 20px 200px 0px 240px;
-    text-align: justify;
+    width: 87%;
+    position: relative;
+    text-align: center;
+    padding-left: 13%;
+    height: 22vw;
+}
 
+.p-1 {
+    position: relative;
+    left: 0vw;
+    font-size: 1.1vw;
+    color: #6a6b6d;
+    text-align: left;
 }
 
 .header-1 {
-    text-align: center;
-    font-size: 30px;
-    color:#990032;
+    color:#b70037;
+    font-size: 3vw;
+    text-align: left;
 }
 
 div a {
@@ -140,9 +154,9 @@ div a {
 .content-view {
     background-color: gray;
     color: white;
-    top: 90px;
+    top: 100px;
     left: 4px;
-    width: 220px;
+    width: 200px;
     text-align: left;
     display: none;
     padding: 8px;
@@ -150,26 +164,6 @@ div a {
     position: absolute;
 }
 
-.content-2 {
-    margin: 200px;
-    text-align: justify;
-    font-size: 20px;
-}
-
-.attention {
-    border-left: 3px #990032 solid;
-    background-color: #f2f5f9;
-    text-align: center;
-    padding: 20px;
-    left: 560px;
-    position: relative;
-    height: 275px;
-    width: 700px;
-    font-size: 30px;
-    bottom: 140px;
-    color:#990032;
-    border-radius: 30px 0px 0px 0px;
-}
 
 .menu {
     text-align: center;
@@ -192,7 +186,7 @@ div a {
     border: 2px #990032 solid;
     color:#990032;
     background-color: white;
-
+    
 }
 .str {
     border: 1px white solid;
@@ -213,11 +207,138 @@ div a {
 }
 
 .menuStr {
-    opacity: 0.5;
-    transition: 1s;
+    opacity: 0.8;
+    transition: 0.5s;
 }
 
 .menuStr:hover {
     opacity: 1;
-    transition: 1s;
+    transition: 0.5s;
+}
+
+.img-1 {
+    width: 60%;
+    position: relative;
+    right: -20%;
+    top: -17vw;
+}
+
+.mini-border-1 {
+    border-bottom: 2px #bf1f4f solid;
+    position: relative;
+    top: -21vw;
+    width: 34%;
+}
+
+.content-2 {
+    width: 74%;
+    text-align: justify;
+    font-size: 1.5vw;
+    padding: 0 13% 0 13%;
+    color: #bf1f4f;
+}
+
+.img-2 {
+    width: 40%;
+    padding: 0 0 0 30%;
+}
+.content-3 {
+    width: 74%;
+    text-align: justify;
+    font-size: 1.5vw;
+    padding: 0 13% 0 13%;
+    color: black;
+}
+
+.attention {
+    margin: 0 32% 0 32%;
+    width: 36%;
+    height: 14vw;
+    border: 4px #cbcfd6;
+    background-color: #990032;
+    text-align: center;
+    color: white;
+    padding: 1vw;
+    font-size: 1.5vw;
+}
+
+.mini-border-2 {
+    border-bottom: 2px #cbcfd6 solid;
+    position: relative;
+    top: 3vw;
+    width: 100%;
+}
+
+.header-2 {
+    color:#b70037;
+    font-size: 3vw;
+    text-align: center;
+    position: relative;
+
+}
+
+.content-4 {
+    width: 75%;
+    height: 36vw;
+    color: #6a6b6d;
+    top: 60vw;
+    position: relative;
+    margin: 0 13% 0 13%;
+    font-size: 1.2vw;
+}
+
+.place-1 {
+    width: 25%;
+    height: 50%;
+    border: 1px #cbcfd6 solid;
+    position: relative;
+    display: inline-block;
+    margin-left: -0.05vw;
+    top: -0.05vw;
+}
+.place-2 {
+    width: 25%;
+    height: 50%;
+    border: 1px #cbcfd6 solid;
+    display: inline-block;
+    position: relative;
+    margin-left: -0.36vw;
+    top: -0.05vw;
+}
+.place-3 {
+    width: 25%;
+    height: 50%;
+    border: 1px #cbcfd6 solid;
+    position: relative;
+    display: inline-block;
+    margin-left: -0.36vw;
+    top: -0.05vw;
+    
+}
+.place-4 {
+    width: 37.24vw;
+    height: 17.92vw;
+    border: 1px #cbcfd6 solid;
+    position: relative;
+    display: inline-block;
+    margin-left: 18.59vw;
+    top: -0.1vw;
+}
+.place-5 {
+    width: 18.44vw;
+    height: 17.92vw;
+    border: 1px #cbcfd6 solid;
+    position: absolute;
+    display: inline-block;
+    margin-left: -0.05vw;
+    top: 18.02vw;
+}
+
+.wins {
+    font-size: 4vw;
+    color: #bf1f4f;
+}
+
+.wins-2 {
+    line-height: 18;
 }
