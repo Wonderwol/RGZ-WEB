@@ -10,7 +10,7 @@ section a {
     transition: 0.5s;
     font-size: 1.4rem;
     position:relative;
-    font-family: inherit; /* скачать и поставить шрифт*/
+    font-family: "Suisseintl", arial, sans-serif, "Space";
     left: 30px;
     margin: 10px;
 }
@@ -41,12 +41,13 @@ section {
     position: relative;
     background-color: white;
     width: 100%;
+    font-family: arial, sans-serif, "Space";
 }
 
 
 .companyName {
     color: #990032;
-    font-family: initial; /* скачать и поставить шрифт*/
+    font-family: arial, sans-serif, "Space";
     font-size: 30px;
 }
 
@@ -142,6 +143,7 @@ section {
     color:#b70037;
     font-size: 3vw;
     text-align: left;
+    font-family: arial, sans-serif, "Space";
 }
 
 div a {
@@ -159,7 +161,7 @@ div a {
     width: 200px;
     text-align: left;
     display: none;
-    padding: 8px;
+    padding: 4px;
     border-radius: 15px;
     position: absolute;
 }
@@ -251,15 +253,17 @@ div a {
 }
 
 .attention {
-    margin: 0 32% 0 32%;
-    width: 36%;
-    height: 14vw;
+    margin: 0 31% 0 31%;
+    width: 38%;
+    height: 15vw;
     border: 4px #cbcfd6;
     background-color: #990032;
     text-align: center;
     color: white;
     padding: 1vw;
     font-size: 1.5vw;
+    position: relative;
+    font-family: arial, sans-serif, "Space";
 }
 
 .mini-border-2 {
@@ -274,6 +278,7 @@ div a {
     font-size: 3vw;
     text-align: center;
     position: relative;
+    font-family: arial, sans-serif, "Space";
 
 }
 
@@ -281,7 +286,7 @@ div a {
     width: 75%;
     height: 36vw;
     color: #6a6b6d;
-    top: 60vw;
+    top: 5vw;
     position: relative;
     margin: 0 13% 0 13%;
     font-size: 1.2vw;
@@ -295,6 +300,8 @@ div a {
     display: inline-block;
     margin-left: -0.05vw;
     top: -0.05vw;
+    text-indent: 1vw;
+    font-family:'Times New Roman', Times, serif;
 }
 .place-2 {
     width: 25%;
@@ -304,6 +311,7 @@ div a {
     position: relative;
     margin-left: -0.36vw;
     top: -0.05vw;
+    text-indent: 1vw;
 }
 .place-3 {
     width: 25%;
@@ -313,7 +321,7 @@ div a {
     display: inline-block;
     margin-left: -0.36vw;
     top: -0.05vw;
-    
+    text-indent: 1vw;
 }
 .place-4 {
     width: 37.24vw;
@@ -323,6 +331,7 @@ div a {
     display: inline-block;
     margin-left: 18.59vw;
     top: -0.1vw;
+    text-indent: 1vw;
 }
 .place-5 {
     width: 18.44vw;
@@ -331,14 +340,69 @@ div a {
     position: absolute;
     display: inline-block;
     margin-left: -0.05vw;
-    top: 18.02vw;
+    top: 18vw;
+    text-indent: 1vw;
 }
 
 .wins {
     font-size: 4vw;
     color: #bf1f4f;
+    font-family: arial, sans-serif, "Space";
 }
 
 .wins-2 {
     line-height: 18;
+}
+
+.content-5 {
+    width: 74%;
+    height: 50%;
+    position: relative;
+    top: -0.1vw;
+    margin: 7% 13% 0 13%;
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.header-3 {
+    color:#b70037;
+    font-size: 3vw;
+    text-align: center;
+    position: relative;
+    font-family: arial, sans-serif, "Space";
+    padding-top: 3%;
+}
+
+.mini-border-3 {
+    border-bottom: 2px #cbcfd6 solid;
+    position: relative;
+    top: 44vw;
+    width: 75%;
+    margin: 0 13% 0 13%;
+}
+
+.mini-border-4 {
+    border-bottom: 2px #cbcfd6 solid;
+    position: relative;
+    top: 2vw;
+    width: 74%;
+    margin: 0 13% 0 13%;
+}
+
+.content-6 {
+    width: 74%;
+    height: 50%;
+    position: relative;
+    font-size: 1.5vw;
+    top: -0.1vw;
+    margin: 0% 13% 0 13%;
+    text-align: justify;
+}
+
+.mini-border-ex {
+    border-bottom: 2px #cbcfd6 solid;
+    position: relative;
+    top: 1vw;
+    width: 74%;
+    margin: 0 13% 0 13%;
 }
