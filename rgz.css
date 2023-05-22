@@ -88,7 +88,7 @@ section {
     top: 12px;
     font-size: 1.1vw;
     width: 19.79vw;
-    left: 18.3%;
+    left: 20.3%;
     z-index: 1;
     transition: transform 1s;
     transition: transform 1s;
@@ -99,7 +99,7 @@ section {
     top: 12px;
     font-size: 1.1vw;
     width: 19.79vw;
-    left: 61.8%;
+    left: 59.8%;
     z-index: 1;
     transition: transform 1s;
     transition: transform 1s;
@@ -414,7 +414,7 @@ footer {
     position: relative;
     top: 2vw;
     width: 74%;
-    margin: 0 13% 5% 13%;
+    margin: 0 13% 36% 13%;
     font-family: "Suisseintl", arial, sans-serif, "Space";
     color:#6a6b6d;
     text-align: center;
@@ -427,4 +427,87 @@ footer {
     font-size: 1rem;
     position:relative;
     font-family: "Suisseintl", arial, sans-serif, "Space";
+}
+
+
+.frame-1 {
+    margin: 3% 25% 3% 25%;
+    height: 51.8%;
+}
+
+.h-map {
+    font-family: "Suisseintl", arial, sans-serif, "Space";
+    color:#b70037;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 2vw;
+}
+
+.number-1 {
+    position: relative;
+    text-align: left;
+}
+.number-2 {
+    position: relative;
+    text-align: left;
+}
+
+.site {
+    top: 50%;
+    position: absolute;
+    bottom: 50%;
+    left: 38%;
+}
+
+table {
+    background: #b70037;
+    margin-left: 13vw;
+}
+
+td, th {
+    background:white;
+    color: #b70037;
+    padding: 0.5vw;
+    font-family: "Suisseintl", arial, sans-serif, "Space";
+    font-size: 0.8vw;
+}
+
+#average {
+    border: 4px #b70037 solid;
+    width: 22vw;
+    color: #b70037;
+    top: -40vw;
+    left: 53vw;
+    position: relative;
+    font-size: 2vw;
+    font-family: "Suisseintl", arial, sans-serif, "Space";
+    color: #b70037;
+    text-align: center;
+}
+
+#minValue {
+    border: 4px #b70037 solid;
+    width: 22vw;
+    color: #b70037;
+    top: -35vw;
+    left: 53vw;
+    position: relative;
+    font-size: 2vw;
+    font-family: "Suisseintl", arial, sans-serif, "Space";
+    color: #b70037;
+    text-align: center;
+}
+
+#maxValue {
+    border: 4px #b70037 solid;
+    width: 22vw;
+    color: #b70037;
+    top: -30vw;
+    left: 53vw;
+    position: relative;
+    font-size: 2vw;
+    font-family: "Suisseintl", arial, sans-serif, "Space";
+    color: #b70037;
+    text-align: center;
+    margin-bottom: -5vw;
 }
