@@ -85,6 +85,4 @@ function setFixedOnScroll() {
         tBlock.style.display = 'none';
         flag = false;
     }
-  }
-
-  
+  } 
