@@ -16,13 +16,13 @@
             </div>
 
             <div class="left-border">
-                <button onclick="slideNameLeft()" style="left: 18vw" class="arrow">&lsaquo;</button>
+                <button onclick="slideNameLeft()" style="left: 18vw" class="arrow" id="left_arrow">&lsaquo;</button>
             </div>
 
             <div id="student" class="student">Студент: Темергалеева Н. А.</div>
 
             <div class="right-border"> 
-                <button onclick="slideNameRight()" style="right: 18vw" class="arrow">&rsaquo;</button> 
+                <button onclick="slideNameRight()" style="right: 18vw" class="arrow" id="right_arrow">&rsaquo;</button> 
             </div>
 
             <div id="lecturer" class="lecturer">
@@ -40,12 +40,15 @@
         </section>
         <br>
         <br>
-        <table  border="1" id="finance"></table>
+        <h1 class="header-2" style="font-size: 2vw;">Капитализация на конец апреля</h1>
+        <table id="finance"></table>
+        <br>
+        <div class="border"><br></div>
         <div id="average"></div>
         <div id="minValue"></div>
         <div id="maxValue"></div>
-        
-        <footer style="top: -4vw">
+
+        <footer style="top: -4vw; margin-top: -15vw;">
             <div class="number-1"><span style="color:#b70037; font-size: 1.5vw;">8 (800) 200-09-00</span> <br> Контакт-центр по России,<br>
             звонок бесплатный</div>
             <br>
@@ -57,6 +60,6 @@
             </div>
         </footer>
     </main>
-    <script src="rgzScript2.js"></script>
+    <script src="scripts/script2.js"></script>
 </body>
 </html>

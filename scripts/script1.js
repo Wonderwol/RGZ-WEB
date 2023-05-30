@@ -1,7 +1,9 @@
-
 let teacherOffsetLeft = 0;
 let studentOffsetLeft = 750;
 let lecturerOffsetLeft = 1500;
+
+let leftArrow = document.getElementById('left_arrow')
+let rightArrow = document.getElementById('right_arrow')
 
 function slideNameLeft() {
     let teacher = document.getElementById('teacher');
@@ -9,10 +11,11 @@ function slideNameLeft() {
     let lecturer = document.getElementById('lecturer');
     
     if (studentOffsetLeft == 750){
-        student.style.transform = 'translateX(-750px)';
+        student.style.transform = 'translateX(-375px)';
         lecturer.style.transform = 'translateX(-375px)';
         studentOffsetLeft -= 750;
         lecturerOffsetLeft -= 750;
+        leftArrow.style.color = 'gray';
     }
     
     if (teacherOffsetLeft == 750) {
@@ -20,6 +23,7 @@ function slideNameLeft() {
         student.style.transform = 'translateX(0px)';
         teacherOffsetLeft -= 750;
         studentOffsetLeft -= 750;
+        rightArrow.style.color = 'white'
     }
 }
 
@@ -30,10 +34,11 @@ function slideNameRight() {
     let lecturer = document.getElementById('lecturer');
 
     if (studentOffsetLeft == 750){
-        student.style.transform = 'translateX(750px)';
+        student.style.transform = 'translateX(375px)';
         teacher.style.transform = 'translateX(375px)';
         studentOffsetLeft += 750;
         teacherOffsetLeft += 750;
+        rightArrow.style.color = 'gray';
     }
 
     if (lecturerOffsetLeft == 750) {
@@ -41,6 +46,7 @@ function slideNameRight() {
         student.style.transform = 'translateX(0px)';
         lecturerOffsetLeft += 750;
         studentOffsetLeft += 750;
+        leftArrow.style.color = 'white'
     }
 }
 
